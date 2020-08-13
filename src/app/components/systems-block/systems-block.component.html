@@ -1,0 +1,8 @@
+<div class="row d-flex">
+  <app-independent-monitoring-system
+    *ngFor="let indicator of medicalDataIndicators$ | async"
+    [indicator]="indicator"
+    class="col-md-4">
+  </app-independent-monitoring-system>
+</div>
+
